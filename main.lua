@@ -37,7 +37,7 @@ local function checkTime(event)
   levelTime = levelTime - 1 
   listener() 
   if ( levelTime <= 0 ) then  
-    -- code to end the level
+    
   end
 end
 timer.performWithDelay( 1000, checkTime, levelTime ) 
